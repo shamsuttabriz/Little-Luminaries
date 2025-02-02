@@ -1,0 +1,120 @@
+@media only screen and (max-width: 640px) {
+  /* Header Section */
+  .logo img {
+    width: 60%;
+    padding-left: 0;
+  }
+  .logo-text,
+  .page-list,
+  .btn-nav {
+    display: none;
+  }
+  .menu-bars {
+    display: block;
+    width: 10%;
+    padding-right: 10px;
+  }
+  /* Hero Section */
+  .empowering-section {
+    flex-direction: column-reverse;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 2em;
+  }
+
+  .content p {
+      font-size: 1em;
+  }
+
+  .enroll-button {
+      font-size: 1em;
+      padding: 8px 16px;
+  }
+  .hero-image {
+    width: 80%;
+  }
+
+  /* Standrad Carriculum */
+  .curriculum-item {
+    width: 45%;
+  }
+
+  .curriculum-section h1 {
+      font-size: 2em;
+  }
+
+  .curriculum-item h2 {
+      font-size: 1.3em;
+  }
+
+  .curriculum-item p {
+      font-size: 0.9em;
+  }
+
+  .read-more {
+      font-size: 0.9em;
+      padding: 8px 16px;
+  }
+
+  /* Standard Carriculum */
+  .curriculum-container {
+    flex-direction: column;
+  }
+  .curriculum-item {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  /* Story Section */
+  .stories-container {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .left-story {
+    width: 100%;
+  }
+
+  .left-story img {
+    width: 100%;
+  }
+
+  .top-feature, .bottom-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .top-feature img, .bottom-feature img {
+    width: 100%;
+  }
+
+  .left-story-date {
+    position: absolute;
+    top: 215px;
+    left: 30px;
+  }
+
+  .left-story-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    top: 222px;
+    left: 30px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .ft-logo {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .ft-about {
+    margin-bottom: 40px;
+  }
+}
