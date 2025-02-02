@@ -1,4 +1,9 @@
 @media only screen and (max-width: 640px) {
+  /* navbar */
+  header {
+    border-bottom: 1px solid orange;
+  }
+  
   /* Header Section */
   .logo img {
     width: 60%;
